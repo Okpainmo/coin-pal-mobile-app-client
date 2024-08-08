@@ -1,14 +1,13 @@
-export const background_variant_1 = '#161622'; // dark_blue/slate
-export const background_variant_1_light = '#1d1d2b'; // dark_blue/slate
-export const background_variant_2 = '#FFA001'; // yellowish/orange
-export const background_variant_3 = 'rgba(205, 205, 224, 0.08)'; // transparent(showing dark_blue/slate background) - for form inputs
-export const background_variant_4 = '#CDCDE0'; // white-ish/greyish
-export const background_variant_5 = 'rgba(255, 160, 1, 0.8)'; // white-ish/greyish
-export const background_variant_6 = 'rgba(255, 160, 1, 0.2)'; // yellowish/orange - opaque version
-export const background_variant_7 = 'rgba(29, 29, 43, 0.5)'; // transparent(showing dark_blue/slate background) - for form inputs
-export const text_variant_1 = '#CDCDE0'; // white-ish/greyish
-export const text_variant_2 = '#161622'; // dark_blue/slate
-export const text_variant_3 = '#FFA001'; // yellowish/orange
-export const border_variant_1 = '#CDCDE0'; // white-ish/greyish
-export const border_variant_2 = '#161622'; // dark_blue/slate
-export const border_variant_3 = '#FFA001'; // yellowish/orange
+export const default_light_backgrounds = {
+  background_variant_1: '#ffffff', // white
+  background_variant_2: '#118ab2', // blue-ish-teal
+  background_variant_3: '#CDCDE0', // white-ish-greyish
+  background_variant_4: 'rgba(255, 160, 1, 0.8)', // white-ish-greyish
+};
+
+export const default_light_texts = {
+  text_variant_1: '#000000', // black
+  text_variant_2: '#118ab2', // blue-ish-teal
+  text_variant_3: '#CDCDE0', // white-ish-greyish
+  text_variant_4: 'rgba(255, 160, 1, 0.8)', // white-ish-greyish
+};
